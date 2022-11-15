@@ -21,7 +21,7 @@ const MainPage = () => {
         <div className='main-journey'>
           <JourneyDetails
             detailsHeading={'07 November'}
-            details={'A tree is a magic on earth, source of life'}
+            details={'A tree is a magic on earth, source of life.'}
           />
         </div>
 
@@ -31,7 +31,7 @@ const MainPage = () => {
         <EmpCompOne />
         <JourneyDetails
           detailsHeading={'07 November'}
-          details={'A tree is a magic on earth, source of life'}
+          details={'A tree is a magic on earth, source of life.'}
         />
       </div>
       <div className='main-third-cnt'>
@@ -48,7 +48,7 @@ const MainPage = () => {
       <div className='main-fifth-cnt'>
         <JourneyDetails
           detailsHeading={'07 November'}
-          details={'A tree is a magic on earth, source of life'}
+          details={'A tree is a magic on earth, source of life.git'}
         />
         <div className='main-fifth-cnt-firstPart'>
           <EmpCompOne />
