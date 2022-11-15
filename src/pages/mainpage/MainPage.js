@@ -8,6 +8,7 @@ import EmpCompOne from '../../components/emptycomp/EmpCompOne';
 import EmpCompTwo from '../../components/emptycomp/EmpCompTwo';
 
 import tree from '../../images/tree.jpg';
+import road from '../../images/road.jpg';
 
 const MainPage = () => {
   return (
@@ -39,6 +40,21 @@ const MainPage = () => {
         </div>
         <div>
           <EmpCompTwo />
+        </div>
+      </div>
+      <div className='main-fourth-cnt'>
+        <ImgComp Img={road} />
+      </div>
+      <div className='main-fifth-cnt'>
+        <JourneyDetails
+          detailsHeading={'07 November'}
+          details={'A tree is a magic on earth, source of life'}
+        />
+        <div className='main-fifth-cnt-firstPart'>
+          <EmpCompOne />
+          <div className='reverse-comp-cnt'>
+            <ReverseComp data={'App Completed'} />
+          </div>
         </div>
       </div>
     </div>

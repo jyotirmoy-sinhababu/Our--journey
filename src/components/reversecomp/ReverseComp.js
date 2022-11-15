@@ -1,8 +1,8 @@
 import './reversecomp.css';
 
-const ReverseComp = ({ data }) => {
+const ReverseComp = ({ data, style }) => {
   return (
-    <div className='reverse-cnt'>
+    <div style={style} className='reverse-cnt'>
       <h2 className='reverse-cnt-txt'>{data}</h2>
     </div>
   );

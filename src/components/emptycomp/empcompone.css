@@ -1,8 +1,8 @@
 .emt-one-cnt {
-  height: 100px;
-  width: 100px;
+  height: 60px;
+  width: 60px;
   background-color: grey;
-  margin-top: 20px;
+  margin-top: 15px;
   border-radius: 50%;
   opacity: 0.5;
 }

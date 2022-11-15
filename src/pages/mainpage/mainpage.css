@@ -3,7 +3,7 @@
   justify-content: flex-end;
   align-items: flex-end;
   padding-right: 31%;
-  height: 100px;
+  height: 60px;
 }
 
 .main-journey {
@@ -34,5 +34,31 @@
   justify-content: center;
   padding-right: 15%;
   gap: 2rem;
+  margin-top: 10px;
+}
+
+.main-fourth-cnt {
+  display: flex;
+  max-width: 100%;
+  width: 55%;
+  padding-left: 24%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.main-fifth-cnt {
   margin-top: 20px;
+  display: flex;
+  gap: 3rem;
+  padding-left: 28%;
+}
+
+.reverse-comp-cnt {
+  display: flex;
+}
+
+.main-fifth-cnt-firstPart {
+  display: flex;
+  gap: 20rem;
 }
