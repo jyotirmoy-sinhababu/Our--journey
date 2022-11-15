@@ -10,12 +10,18 @@ import tree from '../../images/tree.jpg';
 const MainPage = () => {
   return (
     <div>
-      <div className='header-cnt'>
+      <div className='main-header-cnt'>
         <Header heading={'November 7'} />
       </div>
-      <div className='first-cnt'>
+      <div className='main-first-cnt'>
         <ReverseComp data={'Journey Begins'} />
-        <JourneyDetails details={'lorem'} />
+        <div className='main-journey'>
+          <JourneyDetails
+            detailsHeading={'07 November'}
+            details={'A tree is a magic on earth, source of life'}
+          />
+        </div>
+
         <ImgComp Img={tree} />
       </div>
     </div>

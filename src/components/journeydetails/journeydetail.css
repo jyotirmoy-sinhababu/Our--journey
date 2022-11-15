@@ -1,0 +1,9 @@
+.journey-cnt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cnt-firstTxt {
+  text-decoration: underline;
+}

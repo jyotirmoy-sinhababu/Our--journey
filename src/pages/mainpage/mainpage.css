@@ -1,13 +1,20 @@
-.header-cnt {
+.main-header-cnt {
   display: flex;
   justify-content: flex-end;
-  padding-right: 40%;
+  align-items: flex-end;
+  padding-right: 35%;
+  height: 100px;
 }
 
-.first-cnt {
+.main-journey {
+  padding-bottom: 5%;
+}
+
+.main-first-cnt {
   display: flex;
   max-width: 100%;
-  width: 70%;
+  width: 55%;
+  padding-left: 3%;
   justify-content: center;
   align-items: center;
   gap: 6rem;

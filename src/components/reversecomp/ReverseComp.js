@@ -1,7 +1,11 @@
-import React from 'react';
+import './reversecomp.css';
 
 const ReverseComp = ({ data }) => {
-  return <div>{data}</div>;
+  return (
+    <div className='reverse-cnt'>
+      <h2 className='reverse-cnt-txt'>{data}</h2>
+    </div>
+  );
 };
 
 export default ReverseComp;
