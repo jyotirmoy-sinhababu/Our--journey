@@ -1,0 +1,14 @@
+.header-cnt {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40%;
+}
+
+.first-cnt {
+  display: flex;
+  max-width: 100%;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+}
