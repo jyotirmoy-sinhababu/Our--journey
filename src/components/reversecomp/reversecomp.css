@@ -1,3 +1,5 @@
 .reverse-cnt-txt {
   transform: rotate(-90deg);
+  color: grey;
+  opacity: 0.5;
 }

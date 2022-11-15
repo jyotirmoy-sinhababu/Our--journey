@@ -2,7 +2,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  padding-right: 35%;
+  padding-right: 31%;
   height: 100px;
 }
 
@@ -18,4 +18,12 @@
   justify-content: center;
   align-items: center;
   gap: 6rem;
+}
+
+.main-second-cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding-left: 25%;
 }
