@@ -27,3 +27,12 @@
   gap: 4rem;
   padding-left: 25%;
 }
+
+.main-third-cnt {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-right: 15%;
+  gap: 2rem;
+  margin-top: 20px;
+}
